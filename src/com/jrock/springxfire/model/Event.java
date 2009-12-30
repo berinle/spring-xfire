@@ -27,7 +27,11 @@ public class Event {
 	}
 	
 	public String toString(){
-		return new ToStringBuilder(this).toString();
+		return new ToStringBuilder(this)
+		.append("type", type)
+		.append("foo", foo)
+		.append("baz", baz)
+		.toString();
 	}
 	
 }

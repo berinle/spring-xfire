@@ -7,7 +7,7 @@ public class Bar {
 	private String attr;
 	
 	public String toString(){
-		return new ToStringBuilder(this).toString();
+		return new ToStringBuilder(this).append("attr", attr).toString();
 	}
 
 	public String getAttr() {

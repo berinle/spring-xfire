@@ -7,7 +7,7 @@ public class Baz {
 	private String name;
 	
 	public String toString(){
-		return new ToStringBuilder(this).toString();
+		return new ToStringBuilder(this).append("name", name).toString();
 	}
 
 	public String getName() {

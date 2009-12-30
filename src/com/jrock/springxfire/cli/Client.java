@@ -1,8 +1,6 @@
 package com.jrock.springxfire.cli;
 
-import java.util.ArrayList;
 import java.util.Date;
-import java.util.List;
 
 import org.apache.xbean.spring.context.ClassPathXmlApplicationContext;
 

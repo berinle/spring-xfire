@@ -39,7 +39,11 @@ public class Foo {
 	}
 	
 	public String toString(){
-		return new ToStringBuilder(this).toString();
+		return new ToStringBuilder(this)
+		.append("date", date)
+		.append("count", count)
+		.append("amt", amt)
+		.toString();
 	}
 	
 }
