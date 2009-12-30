@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-module
+  type="WEB"
+  name="spring-xfire"
+  id="myeclipse.1262160813228"
+  context-root="/spring-xfire"
+  j2ee-spec="5.0"
+  archive="spring-xfire.war">
+  <attributes>
+    <attribute name="webrootdir" value="web" />
+  </attributes>
+</project-module>
+
