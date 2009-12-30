@@ -3,7 +3,7 @@ package com.jrock.springxfire.service;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
-import com.jrock.springxfire.model.Event.Event;
+import com.jrock.springxfire.model.Event;
 
 public class EventServiceImpl implements EventService {
 

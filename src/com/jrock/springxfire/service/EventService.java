@@ -1,6 +1,6 @@
 package com.jrock.springxfire.service;
 
-import com.jrock.springxfire.model.Event.Event;
+import com.jrock.springxfire.model.Event;
 
 public interface EventService {
 
